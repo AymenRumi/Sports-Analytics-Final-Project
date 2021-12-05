@@ -12,12 +12,14 @@ warnings.filterwarnings("ignore")
 class NBA_Web_Scraper():
     
     def __init__(self):
-
-
+        """Initializing driver object
+        """
         self.driver= webdriver.Chrome(ChromeDriverManager().install())
         
     
     def get_traditional_team_data(self,years):
+        """Getting traditional team data
+        """
         
         header_added=False
         # dictionary to add values
@@ -36,7 +38,6 @@ class NBA_Web_Scraper():
             except:
                 pass
 
-
             # column headers
             if header_added==False:
                 for i in range(2,29):
@@ -51,7 +52,6 @@ class NBA_Web_Scraper():
                     data[col]=[]
 
                 header_added=True
-
 
             # keys 
             col_names=list(data.keys())
@@ -78,11 +78,8 @@ class NBA_Web_Scraper():
                     index+=1
                 except:
                     
-                    break
-            
+                    break 
             print("\u2713")
-
-
 
         return pd.DataFrame.from_dict(data)
 
@@ -90,7 +87,8 @@ class NBA_Web_Scraper():
     
     
     def get_advanced_team_data(self,years):
-        
+         """Getting advanced team data
+        """
         header_added=False
         # dictionary to add values
         data={}
@@ -153,8 +151,6 @@ class NBA_Web_Scraper():
                     break
             
             print("\u2713")
-
-
     
         return pd.DataFrame.from_dict(data)  
     
@@ -162,7 +158,8 @@ class NBA_Web_Scraper():
     
     
     def get_traditional_player_data(self,years):
-
+        """Getting traditional player data
+        """
         header_added=False
         data={}
         for year in range(years[0],years[1]):
@@ -208,12 +205,12 @@ class NBA_Web_Scraper():
                     break
             print("\u2713")
 
-        
         return pd.DataFrame.from_dict(data)
         
         
     def get_advanced_player_data(self,years):
-
+        """Getting advanced player data
+        """
 
         header_added=False
         # dictionary to add values
@@ -242,8 +239,6 @@ class NBA_Web_Scraper():
                         time.sleep(2)
                         pass
                     break
-
-
 
             time.sleep(7)
 
@@ -291,12 +286,13 @@ class NBA_Web_Scraper():
 
             print("\u2713")
 
-
         
         return pd.DataFrame.from_dict(data)
         
     
     def download_player_data(self,years,filename,filetype='csv'):
+        """Downloading player data for years specified
+        """
         df_traditional=self.get_traditional_player_data(years)
         df_advanced=self.get_advanced_player_data(years)
         
@@ -307,6 +303,8 @@ class NBA_Web_Scraper():
         
         
     def download_team_data(self,years,filename,filetype='csv'):
+        """Downloading team data for years specified
+        """
         df_traditional=self.get_traditional_team_data(years)
         df_advanced=self.get_advanced_team_data(years)
         
