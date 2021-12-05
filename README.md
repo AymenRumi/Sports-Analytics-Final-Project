@@ -1,9 +1,9 @@
 # MAST-679-Sports-Analytics-Final-Project
 
-Jupyter Notebooks:
+## Jupyter Notebooks:
 
-Clustering.ipynb
-Convolutional Neural Network.ipynb
-Sampling .ipynb
+i. Clustering.ipynb
+ii. Convolutional Neural Network.ipynb
+iii. Sampling .ipynb
 
 ** PDF of these notebooks are vailable to view rendered plotly graphs **
