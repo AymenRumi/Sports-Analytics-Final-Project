@@ -12,8 +12,13 @@ PDF of these notebooks are vailable to view rendered plotly graphs
 
 ## Main Files
 
-PDF of these notebooks are vailable to view rendered plotly graphs
-
 - NBA_Web_Scraper.py
 - NBA_Roster_Analysis.py
+
+## Object Files
+
+These are saved objects to aid in Python Module: NBA_Roster_Analysis
+
+- knn.pkl
+- kde.pkl
 
