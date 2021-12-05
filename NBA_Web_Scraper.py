@@ -303,7 +303,7 @@ class NBA_Web_Scraper():
         
         
     def download_team_data(self,years,filename,filetype='csv'):
-        """Downloading team data for years specified
+        """Downloading  data for years specified
         """
         df_traditional=self.get_traditional_team_data(years)
         df_advanced=self.get_advanced_team_data(years)
