@@ -2,8 +2,8 @@
 
 ## Jupyter Notebooks:
 
-i. Clustering.ipynb
-ii. Convolutional Neural Network.ipynb
-iii. Sampling .ipynb
-
+- Clustering.ipynb
+- Convolutional Neural Network.ipynb
+- Sampling .ipynb
+- Main .ipynb
 ** PDF of these notebooks are vailable to view rendered plotly graphs **
