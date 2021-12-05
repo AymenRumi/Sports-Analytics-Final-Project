@@ -26,5 +26,5 @@ These are saved objects to aid in Python Module: NBA_Roster_Analysis
 
 Files are too large to submit 
 
-<img src="https://github.com/AymenRumi/MAST-679-Sports-Analytics-Final-Project/blob/main/models.png" width="950" height="950">
+<img src="https://github.com/AymenRumi/MAST-679-Sports-Analytics-Final-Project/blob/main/models.png">
 
