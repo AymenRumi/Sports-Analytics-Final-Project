@@ -1,6 +1,6 @@
 # MAST-679-Sports-Analytics-Final-Project
 
-Jupyter Notebooks are used for personal analysis for the project, main files are used for getting data and conducting roster anayst with module
+Jupyter Notebooks are used for personal analysis for the project, main files are used for getting data and conducting roster analysis with module
 
 
 ## Jupyter Notebooks
