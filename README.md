@@ -1,6 +1,6 @@
 # MAST-679-Sports-Analytics-Final-Project
 
-Read paper here[https://github.com/AymenRumi/MAST-679-Sports-Analytics-Final-Project/blob/main/SportsAnalytics_Final_Project.pdf]
+Read paper here: https://github.com/AymenRumi/MAST-679-Sports-Analytics-Final-Project/blob/main/SportsAnalytics_Final_Project.pdf
 
 
 Jupyter Notebooks are used for personal analysis for the project, main files are used for getting data and conducting roster analysis with module
